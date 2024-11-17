@@ -25,7 +25,7 @@ try:
 except serial.SerialException as e:
     print(f"Error opening serial port: {e}")
 
-GEMINI_API_KEY = "AIzaSyD0RT2WKSFic4VYhTb7Bxs28OHNkh2M1pE"
+GEMINI_API_KEY = ""
 os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
