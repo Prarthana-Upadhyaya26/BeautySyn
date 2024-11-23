@@ -113,6 +113,8 @@ The **Gemini-1.5 model** is fine-tuned to generate relevant product recommendati
    - **Add to Cart**: Enter two products manually to get recommendations.
    - **Scan RFID**: Use the RFID reader to scan product IDs and fetch recommendations.
 
+![alt text](./images/ss.png)
+
 ### Recommendation Workflow
 - For manual entry:
   - Enter product names in the `Add to Cart` section and click "Get Recommendations."
